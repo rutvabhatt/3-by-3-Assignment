@@ -1,13 +1,13 @@
 void textSetup () {
   println("Start of Console");
-  titleFont = createFont ("Ravie", 50);
+  titleFont = createFont ("Ravie", 55);
 } //End textSetup
 
 void textDrawPre() {
   fill(orange); //Ink, hexidecimal copied from Color Selector
   textAlign (CENTER, CENTER);
   //Values: [LEFT | CENTER | RIGHT] & [TOP | CENTER | BOTTOM | BASELINE]
-  textFont(titleFont, 20);
+  textFont(titleFont, 75);
 }//End textDrawPre
 
 void textDraw1() { 
