@@ -7,10 +7,10 @@ void population () {
   buttonY2 = height*3/4;
   buttonWidth2 = buttonWidth1;
   buttonHeight2 = buttonHeight1;
-  rectDisplayX = width*1/8;
-  rectDisplayY = height*1/8;
-  rectDisplayWidth = buttonWidth1;
-  rectDisplayHeight = buttonWidth1;
+  rectDisplayX = height*14/15;
+  rectDisplayY = width*1/20;
+  rectDisplayWidth = width*1/3;
+  rectDisplayHeight = height*1/3;
   sideX1 = width*1/4;
   sideY1 = height*3/4; 
   sideX2 = width*2/4;
