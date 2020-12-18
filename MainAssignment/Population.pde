@@ -12,7 +12,7 @@ void population () {
   ptY9 = ptY10 = ptY11 = ptY12 = height*2/3 ;
   ptY13= ptY14 = ptY15 = ptY16= height*3/3 ;
   //
-  //Colum 1, Section 1 
+  //Colum 1, Section 1 (top-left conrer)
   fill(black);
   buttonX1 = width*1/15 ;
   buttonY1 = height*2/15 ;
