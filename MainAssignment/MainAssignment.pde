@@ -84,19 +84,25 @@ void draw() {
   if (button2=true && button2 && button3 && button4 && button5 && button6 && button7 && button8 && button9 = false) pic(picHeight1, picWidth1, picWidthRatio1, picHeightRatio1);
   //
   rect(buttonX3, buttonY3, buttonWidth3, buttonHeight3); 
-  if (button3=true && button1 && button2 && button4 && button5 && button6 && button7 && button8 && button9 = false)
+  if (button3=true && button1 && button2 && button4 && button5 && button6 && button7 && button8 && button9 = false) 
   //
   rect(buttonX4, buttonY4, buttonWidth4, buttonHeight4);
+  if (button4=true && button1 && button2 && button3 && button5 && button6 && button7 && button8 && button9 = false) 
   
   rect(buttonX5, buttonY5, buttonWidth5, buttonHeight5);
+  if (button5=true && button1 && button2 && button3 && button4 && button6 && button7 && button8 && button9 = false) 
   
   rect(buttonX6, buttonY6, buttonWidth6, buttonHeight6);
+  if (button6=true && button1 && button2 && button3 && button4 && button5 && button7 && button8 && button9 = false) 
   
   rect(buttonX7, buttonY7, buttonWidth7, buttonHeight7); 
+  if (button7=true && button1 && button2 && button3 && button4 && button5 && button6 && button8 && button9 = false) 
   
   rect(buttonX8, buttonY8, buttonWidth8, buttonHeight8);
+  if (button8=true && button1 && button2 && button4 && button5 && button6 && button7 && button3 && button9 = false) 
   
   rect(buttonX9, buttonY9, buttonWidth9, buttonHeight9);
+  if (button9=true && button1 && button2 && button4 && button5 && button6 && button7 && button8 && button3 = false) 
   
   //
   } //End draw
@@ -105,74 +111,93 @@ void draw() {
 void mousePressed() {
   //
   if (mouseX>buttonX1 && mouseX<buttonX1+buttonWidth1 && mouseY>buttonY1 && mouseY<buttonY1+buttonHeight1 );
-  if (button1 = true) {
+  if (button1 = true);
      (button1 = button2 = button3 = button4 = button5 = button6 = button7 = button8 = button9 == false);
-  } else {
+  { // if end
+  else 
+  }
     (button1 = true);
     (button2 = button3 = button4 = button5 = button6 = button7 = button8 = button9 = false);
   //
   //
   if (mouseX>buttonX2 && mouseX<buttonX2+buttonWidth2 && mouseY>buttonY2 && mouseY<buttonY2+buttonHeight2 );
-  if (button2 = true) {
+  if (button2 = true); {
      (button1 = button2 = button3 = button4 = button5 = button6 = button7 = button8 = button9 = false);
-  } else {
+  } 
+  else 
+  {
     (button2 = true);
-    (button1 = button3 = button4 = button5 = button6 = button7 = button8 = button9 = false);
+    (button1 = button3 = button4 = button5 = button6 = button7 = button8 = button9 = false); }
    //
    //
   if (mouseX>buttonX3 && mouseX<buttonX3+buttonWidth3 && mouseY>buttonY3 && mouseY<buttonY3+buttonHeight3 );
   if (button3 = true); {
      (button1 = button2 = button3 = button4 = button5 = button6 = button7 = button8 = button9 = false);
-  } else {
+   
+  }
+  else 
+  {
     (button3 = true);
     (button1 = = button2 = button4 = button5 = button6 = button7 = button8 = button9 = false);
+  }
    //
    //
    if (mouseX>buttonX4 && mouseX<buttonX4+buttonWidth4 && mouseY>buttonY4 && mouseY<buttonY4+buttonHeight4 );
    if (button4 = true); {
       (button1 = button2 = button3 = button4 = button5 = button6 = button7 = button8 = button9 = false);
-   } else {
+   } 
+   else 
+   {
     (button4 = true);
-    (button1 = button2 = button3 = button5 = button6 = button7 = button8 = button9 = false);
+    (button1 = button2 = button3 = button5 = button6 = button7 = button8 = button9 = false); }
    //
    //
   if (mouseX>buttonX5 && mouseX<buttonX5+buttonWidth5 && mouseY>buttonY5 && mouseY<buttonY5+buttonHeight5 ) 
   if (button5 = true); {
       (button1 = button2 = button3 = button4 = button5 = button6 = button7 = button8 = button9 = false);
-   } else {
+   } 
+   else 
+   {
     (button5 = true);
-    (button1 = button2 = button3 = button4 = button6 = button7 = button8 = button9 = false);
+    (button1 = button2 = button3 = button4 = button6 = button7 = button8 = button9 = false); }
    //
    //
   if (mouseX>buttonX6 && mouseX<buttonX6+buttonWidth6 && mouseY>buttonY6 && mouseY<buttonY6+buttonHeight6 );
   if (button6 = true); {
       (button1 = button2 = button3 = button4 = button5 = button6 = button7 = button8 = button9 = false);
-   } else {
+   } 
+   else 
+   {
     (button6 = true);
-    (button1 = button2 = button3 = button4 = button5 = button7 = button8 = button9 = false);
+    (button1 = button2 = button3 = button4 = button5 = button7 = button8 = button9 = false); }
    //
    //
   if (mouseX>buttonX7 && mouseX<buttonX7+buttonWidth7 && mouseY>buttonY7 && mouseY<buttonY7+buttonHeight7 );
   if (button7 = true); {
       (button1 = button2 = button3 = button4 = button5 = button6 = button7 = button8 = button9 = false);
-   } else {
+   } 
+   else 
+   {
     (button7 = true);
-    (button1 = button2 = button3 = button4 = button5 = button6 = button8 = button9 = false);
+    (button1 = button2 = button3 = button4 = button5 = button6 = button8 = button9 = false); }
    //
    //  
   if (mouseX>buttonX8 && mouseX<buttonX8+buttonWidth8 && mouseY>buttonY8 && mouseY<buttonY8+buttonHeight8 );
   if (button8 = true); {
      (button1 = button2 = button3 = button4 = button5 = button6 = button7 = button8 = button9 = false);
-   } else {
+   } 
+   else 
+   {
     (button8 = true);
-    (button1 = button2 = button3 = button4 = button5 = button6 = button7 = button9 = false);
+    (button1 = button2 = button3 = button4 = button5 = button6 = button7 = button9 = false); }
    //
    //   
   if (mouseX>buttonX9 && mouseX<buttonX9+buttonWidth9 && mouseY>buttonY9 && mouseY<buttonY9+buttonHeight9 ) buttonXOn9 = buttonYOn9 = true;
-  if (button9 = true); {
+  if (button9 = true); 
      (button1 = button2 = button3 = button4 = button5 = button6 = button7 = button8 = button9 = false);
-   } else {
-    (button9 = true);
-    (button1 = button2 = button3 = button4 = button5 = button6 = button7 = button8 = false);
+   { 
+   else 
    }
-  }//End mousePressed
+    (button9 = true); 
+    (button1 = button2 = button3 = button4 = button5 = button6 = button7 = button8 = false) ; 
+  //End mousePressed
